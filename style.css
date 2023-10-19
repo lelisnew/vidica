@@ -1,6 +1,8 @@
 * {
+    
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -70,10 +72,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 3vw;
 }
+
 @media (max-width: 768px) {
     footer {
-        font-size: 14px; 
+        font-size: 4vw;
         padding: 10px 0;
     }
+
 }
