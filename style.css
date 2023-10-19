@@ -1,9 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: pink;
     font-family: "Courier New", cursive;
     text-align: center;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 header {
@@ -61,4 +67,7 @@ footer {
     color: white;
     text-align: center;
     padding: 3px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
