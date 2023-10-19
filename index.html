@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html>    
 <head>
     <meta charset="UTF-8">
     <title>Vidica</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var audio = document.querySelector("audio");
+            audio.currentTime = 10;
+            audio.play();
+        });
+    </script>
 </head>
 <body>
     <header>
         <img class="fotoperfil" src="foto1.jpeg" alt="nossafoto">
+        <audio controls autoplay>
+            <source src="backatone.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução de áudio.
+        </audio>
         <h1>No momento em que eu te conheci foi quando eu descobri a felicidade em si.</h1>
     </header>
     <script src="script.js"></script>
@@ -19,6 +30,8 @@
             E quando você sorri, o mundo fica mais bonito, e a vida ganha uma nova canção.
         </p>
     </main>
-    <footer>Developed by Lelis Coder</footer>
+
 </body>
+<footer>Developed by Lelis Coder</footer>
 </html>
+
